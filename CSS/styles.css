@@ -1,0 +1,104 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #4a6fa5;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Navigation */
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main layout */
+main {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+/* Card sections */
+.card {
+  background-color: white;
+  border: 2px solid #d9e2f2;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+/* Profile image */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Section titles */
+h2 {
+  color: #4a6fa5;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Projects */
+.project {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4a6fa5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project a:hover {
+  color: #2d4d7a;
+}
+
+/* Footer */
+footer {
+  background-color: #4a6fa5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
